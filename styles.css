@@ -12,8 +12,23 @@ section {
   justify-content: center;
 }
 
+.seccion-oscura {
+  background-color: #1b1b32;
+  color: white;
+}
 
-/* Barra de Navegacion  */
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", cursive;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
+
+
+/* Barra de Navegación  */
 
 .navbar {
   padding: 2rem;
@@ -50,6 +65,18 @@ section {
   color: #615151;
 }
 
+
+/* Sobre mí  */
+
+.sobre-mi {
+  height: 500px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
 
 
 /* Adaptable (responsive) */
