@@ -8,16 +8,19 @@
   <meta name="description" content="Proyecto del Tutorial de Bootstrap de FreeCodeCamp">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="HTML, CSS, Bootstrap, Responsive">
-  
+
   <!-- Titulo -->
   <title>Proyecto Bootstrap - FreeCodeCamp</title>
-  
+
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="/images/icon.png">
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- Iconos Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
   <!-- CSS Propio -->
   <link rel="stylesheet" href="styles.css">
@@ -32,7 +35,8 @@
   <!-- Barra de Nav -->
   <nav class="navbar navbar-expand-md navbar-light">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbar-toggler">
@@ -66,7 +70,8 @@
       <h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>
     </div>
     <div class="hero-inferior">
-      <img class="hero-inferior-imagen img-fluid" src="./images/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JS y React">
+      <img class="hero-inferior-imagen img-fluid" src="./images/hero-inferior.svg"
+        alt="Monitor, laptop y logos de HTML, CSS, JS y React">
     </div>
   </section>
 
@@ -75,10 +80,60 @@
   <section class="sobre-mi seccion-oscura">
     <div class="contenedor">
       <h2 class="seccion-titulo">Conoce a Andy</h2>
-      <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quasi nisi totam dignissimos vel voluptates aut reprehenderit, ad velit provident tenetur repudiandae fugiat veniam, explicabo earum. Ea, cupiditate sit? Distinctio iure ut sint soluta excepturi. Dolor dolorum, distinctio tempore nostrum corporis cupiditate alias voluptatibus sequi, nisi eum doloremque nesciunt similique, ipsam vel sapiente debitis doloribus voluptate? Sequi illum eos quod ullam omnis eveniet consequuntur voluptatibus cumque unde recusandae. Libero?</p>
+      <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quasi nisi totam
+        dignissimos vel voluptates aut reprehenderit, ad velit provident tenetur repudiandae fugiat veniam, explicabo
+        earum. Ea, cupiditate sit? Distinctio iure ut sint soluta excepturi. Dolor dolorum, distinctio tempore nostrum
+        corporis cupiditate alias voluptatibus sequi, nisi eum doloremque nesciunt similique, ipsam vel sapiente debitis
+        doloribus voluptate? Sequi illum eos quod ullam omnis eveniet consequuntur voluptatibus cumque unde recusandae.
+        Libero?</p>
     </div>
   </section>
 
+
+  <!-- Experiencia -->
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        <!-- Desarrollo Web -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Desarrollo Web</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque explicabo blanditiis numquam nisi neque
+            iure perferendis soluta sit odit fuga?</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">Javascript</span>
+            <span class="badge text-bg-primary">React</span>
+          </div>
+        </div>
+        <!-- Artículos -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Artículos</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque explicabo blanditiis numquam nisi neque
+            iure perferendis soluta sit odit fuga?</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Escribir</span>
+            <span class="badge text-bg-primary">Editar</span>
+            <span class="badge text-bg-primary">Blogs</span>
+          </div>
+        </div>
+        <!-- Estudiante -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Estudiante</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque explicabo blanditiis numquam nisi neque
+            iure perferendis soluta sit odit fuga?</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">freeCodeCamp</span>
+            <span class="badge text-bg-primary">Desarrollo Web</span>
+            <span class="badge text-bg-primary">CoderHouse</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Bootstrap Script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
