@@ -204,6 +204,24 @@ section {
   opacity: 1;
 }
 
+
+/* Artículos */
+
+.articulos {
+  min-height: 500px;
+  padding: 30px;
+}
+
+.articulos .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.articulos .card-header {
+  font-weight: bold;
+}
+
 /* Adaptable (responsive) */
 
 @media screen and (max-width: 767px) {
